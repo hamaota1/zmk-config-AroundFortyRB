@@ -63,38 +63,38 @@
     keymap {
         compatible = "zmk,keymap";
 
-        Mac-Default_Layer {
+        Default_Layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                      &kp T                              &kp Y        &kp U        &kp I          &kp O       &kp P
-&kp A             &kp S         &kp D         &kp F                      &kp G                              &kp H        &kp J        &kp K          &kp L       &kp MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                      &kp B        &kp LG(LS(NUMBER_4))  &kp N        &kp M        &kp COMMA      &kp PERIOD  &mt RIGHT_SHIFT SLASH
-&kp LCTRL         &kp LEFT_ALT  &kp LEFT_GUI  &mt LEFT_SHIFT LANGUAGE_1  &lt 2 SPACE  &lt 6 LANGUAGE_2      &lt 4 ENTER  &kp AT_SIGN  &kp BACKSPACE  &lt 7 HASH  &kp DELETE
+&kp Q      &kp W             &kp E     &kp R         &kp T                    &kp Y       &kp U    &kp I                 &kp O       &kp P
+&kp A      &kp S             &kp D     &kp F         &kp G                    &kp H       &kp J    &kp K                 &kp L       &kp SEMICOLON
+&kp Z      &kp X             &kp C     &kp V         &kp B        &kp ESCAPE  &kp N       &kp M    &kp COMMA             &kp PERIOD  &kp SLASH
+&kp LSHFT  &kp LEFT_CONTROL  &kp LALT  &kp LEFT_GUI  &lt 1 SPACE  &lt 3 CAPS  &kp DELETE  &kp TAB  &lt_to_layer_0 2 RET  &lt 7 HASH  &kp RSHFT
             >;
         };
 
-        Win-Default_Layer {
+        NUM_Layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                      &kp T                          &kp Y        &kp U        &kp I          &kp O       &kp P
-&kp A             &kp S         &kp D         &kp F                      &kp G                          &kp H        &kp J        &kp K          &kp L       &kp MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                      &kp B        &kp LG(LS(S))     &kp N        &kp M        &kp COMMA      &kp PERIOD  &kp SLASH
-&kp LCTRL         &kp LEFT_GUI  &kp LEFT_ALT  &mt LEFT_SHIFT LANGUAGE_1  &lt 3 SPACE  &lt 6 LANGUAGE_2  &lt 5 ENTER  &kp AT_SIGN  &kp BACKSPACE  &lt 7 HASH  &kp DELETE
+&kp F1     &kp F2    &kp F3    &kp F4    &kp F5              &kp F6     &kp F7    &kp F8      &kp F9             &kp F10
+&kp N1     &kp N2    &kp N3    &kp N4    &kp N5              &kp N6     &kp N7    &kp N8      &kp N9             &kp N0
+&kp GRAVE  &kp LBKT  &kp RBKT  &kp APOS  &kp MINUS  &kp ESC  &kp EQUAL  &kp BSLH  &kp K_MUTE  &kp K_VOLUME_DOWN  &kp K_VOLUME_UP
+&kp LSHFT  &trans    &trans    &trans    &trans     &trans   &trans     &kp TAB   &trans      &lt 7 HASH         &kp RSHFT
             >;
         };
 
-        Mac-Function_Layer {
+        Common_Layer {
             bindings = <
-&kp LG(A)  &kp LG(X)     &kp LG(C)    &kp LG(V)  &kp LG(F)          &kp LESS_THAN         &kp GREATER_THAN       &kp CARET        &kp PERCENT    &kp DOLLAR
-&kp TAB    &kp LEFT_GUI  &kp LS(TAB)  &mkp MB1   &mkp MB2           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN      &kp AMPERSAND  &kp DOUBLE_QUOTES
-&trans     &trans        &trans       &trans     &mkp MB3   &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EXCLAMATION  &kp QUESTION   &kp SQT
-&trans     &trans        &trans       &trans     &trans     &trans  &kp ENTER             &kp COLON              &kp BACKSPACE    &kp BACKSLASH  &kp HASH
+&kp PLUS         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp ASTRK              &kp LC(LEFT_ARROW)  &kp LEFT              &kp UP_ARROW          &kp RIGHT         &kp LC(RIGHT)
+&kp MINUS        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp FSLH               &kp COMMA           &kp LC(DOWN_ARROW)    &kp DOWN              &kp LC(UP_ARROW)  &kp C_VOLUME_UP
+&kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp EQUAL  &kp ESCAPE  &kp PERIOD          &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_MUTE        &kp C_VOL_DN
+&trans           &trans           &trans           &trans           &trans     &trans      &trans              &kp TAB               &trans                &kp BACKSLASH     &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
         };
 
-        Win-Function_Layer {
+        Mac-Function_Layer {
             bindings = <
-&kp LC(A)  &kp LC(X)     &kp LC(C)    &kp LC(V)  &kp LC(LS(V))          &kp LESS_THAN         &kp GREATER_THAN       &kp CARET        &kp PERCENT    &kp DOLLAR
+&kp LG(A)  &kp LG(X)     &kp LG(C)    &kp LG(V)  &kp LS(LG(V))          &kp LESS_THAN         &kp GREATER_THAN       &kp CARET        &kp PERCENT    &kp DOLLAR
 &kp TAB    &kp LEFT_ALT  &kp LS(TAB)  &mkp MB1   &mkp MB2               &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN      &kp AMPERSAND  &kp DOUBLE_QUOTES
 &trans     &trans        &trans       &trans     &mkp MB3       &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EXCLAMATION  &kp QUESTION   &kp SQT
 &trans     &trans        &trans       &trans     &trans         &trans  &kp ENTER             &kp COLON              &kp BACKSPACE    &kp BACKSLASH  &kp HASH
