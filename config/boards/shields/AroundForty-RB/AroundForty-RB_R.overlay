@@ -1,5 +1,4 @@
 #include "AroundForty-RB.dtsi"
-#include <input/processors.dtsi>
 
 
 &default_transform {
@@ -20,8 +19,7 @@
     trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball>;
-        input-processors = <&zip_temp_layer 8 10000>;
-
+       
     };
 };
 
@@ -66,10 +64,3 @@
     };
 };
 
-&zip_temp_layer {
-    excluded-positions = <
-        16 // J
-        17 // K
-        18 // l
-    >;
-};
