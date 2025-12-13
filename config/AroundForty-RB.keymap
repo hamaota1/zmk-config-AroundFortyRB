@@ -102,7 +102,7 @@
 &kp LG(A)  &kp LG(X)         &kp LG(C)             &kp LG(V)          &kp LS(LG(V))                  &kp LESS_THAN         &kp GREATER_THAN       &kp CARET        &kp PERCENT    &kp DOLLAR
 &kp TAB    &kp LA(LC(LEFT))  &kp LA(LC(UP_ARROW))  &kp LA(LC(RIGHT))  &kp LA(LC(LG(EQUAL)))          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN      &kp AMPERSAND  &kp DOUBLE_QUOTES
 &trans     &trans            &kp LA(LC(DOWN))      &trans             &mkp MB3               &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EXCLAMATION  &kp QUESTION   &kp SQT
-&trans     &trans            &trans                &trans             &trans                 &trans  &kp ENTER             &kp COLON              &kp BACKSPACE    &kp BACKSLASH  &trans
+&trans     &trans            &trans                &trans             &trans                 &trans  &kp ENTER             &kp CAPS               &kp BACKSPACE    &kp BACKSLASH  &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
