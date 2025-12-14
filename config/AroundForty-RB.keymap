@@ -152,10 +152,10 @@
 
         AutoMouse_Layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans          &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans          &msc SCRL_LEFT        &msc SCRL_UP    &trans        &trans            &msc SCRL_RIGHT
+&trans  &trans  &trans  &trans  &trans          &kp LG(LEFT_BRACKET)  &mkp MB1        &mkp MB3      &mkp MB2          &kp LG(RIGHT_BRACKET)
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                &msc SCRL_DOWN  &kp LC(LEFT)  &kp LC(UP_ARROW)  &kp LC(RIGHT)
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                &trans          &trans        &trans            &trans
             >;
         };
     };
