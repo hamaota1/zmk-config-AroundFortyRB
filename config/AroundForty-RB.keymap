@@ -79,18 +79,18 @@
 
         NUM_Layer {
             bindings = <
-&kp F1     &kp F2    &kp F3    &kp F4    &kp F5              &kp F6     &kp F7    &kp F8      &kp F9             &kp F10
-&kp N1     &kp N2    &kp N3    &kp N4    &kp N5              &kp N6     &kp N7    &kp N8      &kp N9             &kp N0
-&kp GRAVE  &kp LBKT  &kp RBKT  &kp APOS  &kp MINUS  &kp ESC  &kp EQUAL  &kp BSLH  &kp K_MUTE  &kp K_VOLUME_DOWN  &kp K_VOLUME_UP
-&kp LSHFT  &trans    &trans    &trans    &trans     &trans   &trans     &kp TAB   &trans      &lt 7 HASH         &kp RSHFT
+&kp F1     &kp F2    &kp F3    &kp F4    &kp F5                &kp F6     &kp F7    &kp F8      &kp F9             &kp F10
+&kp N1     &kp N2    &kp N3    &kp N4    &kp N5                &kp N6     &kp N7    &kp N8      &kp N9             &kp N0
+&kp GRAVE  &kp LBKT  &kp RBKT  &kp APOS  &kp MINUS  &kp ESC    &kp EQUAL  &kp BSLH  &kp K_MUTE  &kp K_VOLUME_DOWN  &kp K_VOLUME_UP
+&kp LSHFT  &trans    &trans    &trans    &trans     &kp SPACE  &trans     &kp TAB   &trans      &lt 7 HASH         &kp RSHFT
             >;
         };
 
         Common_Layer {
             bindings = <
 &kp PLUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTRK              &kp LC(LEFT_ARROW)  &kp LEFT              &kp UP_ARROW          &kp RIGHT         &kp LC(RIGHT)
-&kp MINUS     &kp N4        &kp NUMBER_5  &kp N6        &kp FSLH               &kp COMMA           &kp LC(DOWN_ARROW)    &kp DOWN              &kp LC(UP_ARROW)  &kp C_VOLUME_UP
-&kp NUMBER_0  &kp N1        &kp N2        &kp N3        &kp EQUAL  &kp ESCAPE  &kp PERIOD          &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_MUTE        &kp C_VOL_DN
+&kp MINUS     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp FSLH               &kp COMMA           &kp LC(DOWN_ARROW)    &kp DOWN              &kp LC(UP_ARROW)  &kp C_VOLUME_UP
+&kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &kp ESCAPE  &kp PERIOD          &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_MUTE        &kp C_VOL_DN
 &trans        &trans        &trans        &trans        &trans     &trans      &trans              &kp TAB               &trans                &kp BACKSLASH     &trans
             >;
 
