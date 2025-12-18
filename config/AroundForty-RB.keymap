@@ -88,10 +88,10 @@
 
         Common_Layer {
             bindings = <
-&kp PLUS         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp ASTRK              &kp LC(LEFT_ARROW)  &kp LEFT              &kp UP_ARROW          &kp RIGHT         &kp LC(RIGHT)
-&kp MINUS        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp FSLH               &kp COMMA           &kp LC(DOWN_ARROW)    &kp DOWN              &kp LC(UP_ARROW)  &kp C_VOLUME_UP
-&kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp EQUAL  &kp ESCAPE  &kp PERIOD          &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_MUTE        &kp C_VOL_DN
-&trans           &trans           &trans           &trans           &trans     &trans      &trans              &kp TAB               &trans                &kp BACKSLASH     &trans
+&kp PLUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTRK              &kp LC(LEFT_ARROW)  &kp LEFT              &kp UP_ARROW          &kp RIGHT         &kp LC(RIGHT)
+&kp MINUS     &kp N4        &kp NUMBER_5  &kp N6        &kp FSLH               &kp COMMA           &kp LC(DOWN_ARROW)    &kp DOWN              &kp LC(UP_ARROW)  &kp C_VOLUME_UP
+&kp NUMBER_0  &kp N1        &kp N2        &kp N3        &kp EQUAL  &kp ESCAPE  &kp PERIOD          &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_MUTE        &kp C_VOL_DN
+&trans        &trans        &trans        &trans        &trans     &trans      &trans              &kp TAB               &trans                &kp BACKSLASH     &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
