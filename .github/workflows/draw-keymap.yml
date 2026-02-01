@@ -1,0 +1,22 @@
+name: Draw Keymap
+
+on:
+  workflow_dispatch:  # 手動実行ボタンを有効化
+  push:
+    paths:
+      - "config/*.keymap"      # keymapファイルの変更を検知
+      - "config/*.dtsi"        # dtsiファイルの変更を検知
+      - "keymap_drawer.config.yaml" # 設定ファイルの変更を検知
+      # - ".github/workflows/draw-keymap.yml" # ワークフロー自体の変更も検知したい場合はコメントアウトを外す
+
+jobs:
+  draw:
+    uses: caksoylar/keymap-drawer-action/.github/workflows/draw-zmk.yml@v1
+    permissions:
+      contents: write  # 生成された画像をリポジトリに保存するために必要
+    with:
+      keymap_patterns: "config/*.keymap"        # 読み込むファイルの場所
+      config_path: "keymap_drawer.config.yaml"  # 設定ファイルの場所（後述）
+      output_folder: "keymap-drawer"            # 画像の保存先フォルダ名
+      parse_args: ""  # 必要であれば追加の引数
+      draw_args: ""   # 必要であれば追加の引数
