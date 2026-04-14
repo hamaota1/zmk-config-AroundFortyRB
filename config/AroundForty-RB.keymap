@@ -123,10 +123,10 @@
         Mac-Common_Layer {
             display-name = "Mac-Common_Layer";
             bindings = <
-&kp ESC    &trans        &trans       &kp LG(UP_ARROW)    &trans                       &kp LG(W)        &kp LG(LEFT_ARROW)  &mkp MB3        &kp LG(RIGHT_ARROW)  &kp HOME
-&kp TAB    &kp LEFT_GUI  &kp LS(TAB)  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)          &kp LG(TAB)      &mkp MB1            &kp UP_ARROW    &mkp MB2             &kp PAGE_UP
-&kp LSHFT  &trans        &trans       &kp LG(DOWN)        &trans               &trans  &kp LS(LG(TAB))  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp PAGE_DOWN
-&kp LCTRL  &trans        &trans       &trans              &trans               &trans  &trans           &kp LG(T)           &trans          &trans               &kp END
+&kp ESC    &trans        &kp C_BRIGHTNESS_DEC  &kp LG(UP_ARROW)    &kp C_BRI_UP                 &kp LG(W)        &kp LG(LEFT_ARROW)  &mkp MB3        &kp LG(RIGHT_ARROW)  &kp HOME
+&kp TAB    &kp LEFT_GUI  &kp LS(TAB)           &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)          &kp LG(TAB)      &mkp MB1            &kp UP_ARROW    &mkp MB2             &kp PAGE_UP
+&kp LSHFT  &kp C_MUTE    &kp C_VOLUME_DOWN     &kp LG(DOWN)        &kp C_VOLUME_UP      &trans  &kp LS(LG(TAB))  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp PAGE_DOWN
+&kp LCTRL  &trans        &trans                &trans              &trans               &trans  &trans           &kp LG(T)           &trans          &trans               &kp END
             >;
         };
 
@@ -135,7 +135,7 @@
             bindings = <
 &kp ESC    &trans        &kp C_BRIGHTNESS_DEC  &kp LG(UP_ARROW)    &kp C_BRIGHTNESS_INC          &kp LC(W)          &kp LA(LEFT_ARROW)  &mkp MB3        &kp LA(RIGHT_ARROW)  &kp HOME
 &kp TAB    &kp LEFT_GUI  &kp LS(TAB)           &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)           &kp LC(PAGE_UP)    &mkp MB1            &kp UP_ARROW    &mkp MB2             &kp PAGE_UP
-&kp LSHFT  &kp K_MUTE    &kp C_VOL_DN          &kp LG(DOWN_ARROW)  &kp C_VOLUME_UP       &trans  &kp LC(PAGE_DOWN)  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp PAGE_DOWN
+&kp LSHFT  &kp C_MUTE    &kp C_VOL_DN          &kp LG(DOWN_ARROW)  &kp C_VOLUME_UP       &trans  &kp LC(PAGE_DOWN)  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp PAGE_DOWN
 &kp LCTRL  &trans        &trans                &trans              &trans                &trans  &trans             &kp LC(T)           &trans          &trans               &kp END
             >;
         };
