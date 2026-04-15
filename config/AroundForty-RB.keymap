@@ -86,7 +86,7 @@
 &kp Q             &kp W         &kp E         &kp R                     &kp T                          &kp Y            &kp U    &lt 7 I    &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F                     &kp G                          &kp H            &kp J    &kp K      &kp L    &kp SEMICOLON
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                     &kp B        &kp ESC           &kp N            &kp M    &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LCTRL         &kp LEFT_ALT  &kp LEFT_GUI  &mt LSHFT LS(LANGUAGE_4)  &lt 2 SPACE  &lt 6 LANGUAGE_2  &lt 4 BACKSPACE  &kp TAB  &kp ENTER  &mo 8    &kp DEL
+&kp LCTRL         &kp LEFT_ALT  &kp LEFT_GUI  &mt LSHFT LS(LANGUAGE_4)  &lt 2 SPACE  &lt 6 LANGUAGE_2  &lt 4 BACKSPACE  &kp TAB  &kp ENTER  &mo 8    &kp CAPS
             >;
         };
 
@@ -123,7 +123,7 @@
         Mac-Common_Layer {
             display-name = "Mac-Common_Layer";
             bindings = <
-&kp ESC    &trans        &kp C_BRIGHTNESS_DEC  &kp LG(UP_ARROW)    &kp C_BRI_UP                 &kp LG(W)        &kp LG(LEFT_ARROW)  &mkp MB3        &kp LG(RIGHT_ARROW)  &kp HOME
+&kp ESC    &trans        &kp C_BRIGHTNESS_DEC  &kp LG(UP_ARROW)    &kp C_BRI_UP                 &kp LC(LEFT)     &kp LG(LEFT_ARROW)  &mkp MB3        &kp LG(RIGHT_ARROW)  &kp LC(RIGHT)
 &kp TAB    &kp LEFT_GUI  &kp LS(TAB)           &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)          &kp LG(TAB)      &mkp MB1            &kp UP_ARROW    &mkp MB2             &kp PAGE_UP
 &kp LSHFT  &kp C_MUTE    &kp C_VOLUME_DOWN     &kp LG(DOWN)        &kp C_VOLUME_UP      &trans  &kp LS(LG(TAB))  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp PAGE_DOWN
 &kp LCTRL  &trans        &trans                &trans              &trans               &trans  &trans           &kp LG(T)           &trans          &trans               &kp END
