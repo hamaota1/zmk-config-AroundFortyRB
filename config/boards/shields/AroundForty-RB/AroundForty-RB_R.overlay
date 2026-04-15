@@ -84,6 +84,18 @@
         evt-type = <INPUT_EV_REL>;
         x-input-code = <INPUT_REL_X>;
         y-input-code = <INPUT_REL_Y>;
+///////////////////////////////////////////////////////////
+以下を追記します。ここから
+///////////////////////////////////////////////////////////
+        inertial-scroll;
+        inertial-scroll-layers = <6 7>;
+        inertial-scroll-gain-pct = <130>;
+        inertial-scroll-decay-pct = <99>;
+        inertial-scroll-interval-ms = <10>;
+        inertial-scroll-threshold = <4>;
+///////////////////////////////////////////////////////////
+ここまで
+///////////////////////////////////////////////////////////
         cpi = <400>;
         irq-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         force-awake;
