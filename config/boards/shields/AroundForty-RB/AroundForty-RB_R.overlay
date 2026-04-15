@@ -37,7 +37,7 @@
         input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT)>,
                            <&zip_xy_scaler 1 1>,
                            /* AMLを有効にしたい場合は下のコメントを外してください */
-                           <&zip_temp_layer 9 300>;
+                           <&zip_temp_layer 9 10000>;
 
         scroll-layer {
             layers = <6 7>;
@@ -89,3 +89,19 @@
         force-awake;
     };
 };
+
+&zip_temp_layer {
+    excluded-positions = <
+        16 // J
+        17 // K
+        18 // l
+    >;
+};
+
+
+
+
+
+
+
+
