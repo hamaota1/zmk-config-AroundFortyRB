@@ -83,10 +83,10 @@
         Mac-Default_Layer {
             display-name = "Mac-Default_Layer";
             bindings = <
-&kp Q           &kp W             &kp E         &kp R         &kp T                  &kp Y          &kp U      &lt 7 I    &kp O    &kp P
-&kp A           &kp S             &kp D         &kp F         &kp G                  &kp H          &kp J      &kp K      &kp L    &kp SEMICOLON
-&kp Z           &kp X             &kp C         &kp V         &kp B        &kp ESC   &kp N          &kp M      &kp COMMA  &kp DOT  &kp SLASH
-&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &lt 2 SPACE  &kp CLCK  &kp BACKSPACE  &lt 6 TAB  &lt 4 RET  &mo 8    &kp RIGHT_SHIFT
+&kp Q           &kp W             &kp E         &kp R         &kp T                      &kp Y          &kp U      &lt 7 I    &kp O    &kp P
+&kp A           &kp S             &kp D         &kp F         &kp G                      &kp H          &kp J      &kp K      &kp L    &kp SEMICOLON
+&kp Z           &kp X             &kp C         &kp V         &kp B        &kp ESC       &kp N          &kp M      &kp COMMA  &kp DOT  &kp SLASH
+&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &lt 2 SPACE  &kp CAPSLOCK  &kp BACKSPACE  &lt 6 TAB  &lt 4 RET  &mo 8    &kp RIGHT_SHIFT
             >;
         };
 
