@@ -83,50 +83,50 @@
         Mac-Default_Layer {
             display-name = "Mac-Default_Layer";
             bindings = <
-&kp Q             &kp W         &kp E         &kp R           &kp T                          &kp Y          &kp U    &lt 7 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F           &kp G                          &kp H          &kp J    &kp K      &kp L    &kp SEMICOLON
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V           &kp B        &kp ESC           &kp N          &kp M    &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_ALT  &kp LEFT_GUI  &lt 4 CAPSLOCK  &lt 2 SPACE  &lt 6 LANGUAGE_2  &kp BACKSPACE  &kp TAB  &kp ENTER  &mo 8    &kp RIGHT_SHIFT
+&kp Q           &kp W             &kp E         &kp R         &kp T                    &kp Y          &kp U    &lt 7 I    &kp O    &kp P
+&kp A           &kp S             &kp D         &kp F         &kp G                    &kp H          &kp J    &kp K      &kp L    &kp SEMICOLON
+&kp Z           &kp X             &kp C         &kp V         &kp B        &kp ESC     &kp N          &kp M    &kp COMMA  &kp DOT  &kp SLASH
+&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &lt 2 SPACE  &lt 6 CAPS  &kp BACKSPACE  &kp TAB  &lt 4 RET  &mo 8    &kp RIGHT_SHIFT
             >;
         };
 
         Win-Default_Layer {
             display-name = "Win-Default_Layer";
             bindings = <
-&kp Q             &kp W         &kp E         &kp R       &kp T                          &kp Y          &kp U    &lt 7 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F       &kp G                          &kp H          &kp J    &kp K      &kp L    &kp SEMI
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V       &kp B        &kp ESCAPE        &kp N          &kp M    &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_ALT  &kp LEFT_GUI  &lt 5 CAPS  &lt 3 SPACE  &lt 6 LANGUAGE_2  &kp BACKSPACE  &kp TAB  &kp ENTER  &mo 8    &kp RIGHT_SHIFT
+&kp Q           &kp W             &kp E         &kp R         &kp T                        &kp Y          &kp U    &lt 7 I    &kp O    &kp P
+&kp A           &kp S             &kp D         &kp F         &kp G                        &kp H          &kp J    &kp K      &kp L    &kp SEMI
+&kp Z           &kp X             &kp C         &kp V         &kp B        &kp ESCAPE      &kp N          &kp M    &kp COMMA  &kp DOT  &kp SLASH
+&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &lt 3 SPACE  &lt 6 CAPSLOCK  &kp BACKSPACE  &kp TAB  &kp ENTER  &mo 8    &kp RIGHT_SHIFT
             >;
         };
 
         Mac-Function_Layer {
             display-name = "Mac-Function_Layer";
             bindings = <
-&kp F1            &kp F2             &kp F3                &kp F4        &kp F5                 &kp F6        &kp F7        &kp F8        &kp F9                &kp F10
-&kp NUMBER_1      &kp NUMBER_2       &kp NUMBER_3          &kp NUMBER_4  &kp NUMBER_5           &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9          &kp NUMBER_0
-&kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH  &kp GRAVE     &kp MINUS     &kp ESC  &kp EQUAL     &kp SQT       &kp F11       &kp F12               &kp F13
-&trans            &trans             &trans                &trans        &trans        &trans   &trans        &kp TAB       &trans        &kp NON_US_BACKSLASH  &kp RIGHT_SHIFT
+&kp F1        &kp F2            &kp F3             &kp F4                &kp F5                 &kp F6        &kp F7         &kp F8        &kp F9                &kp F10
+&kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3       &kp NUMBER_4          &kp NUMBER_5           &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9          &kp NUMBER_0
+&kp GRAVE     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH  &kp MINUS     &kp ESC  &kp EQUAL     &kp SEMICOLON  &kp SQT       &kp F11               &kp F12
+&trans        &trans            &trans             &trans                &trans        &trans   &trans        &kp TAB        &trans        &kp NON_US_BACKSLASH  &trans
             >;
         };
 
         Win-Function_Layer {
             display-name = "Win-Function_Layer";
             bindings = <
-&kp F1            &kp F2             &kp F3                &kp F4        &kp F5              &kp F6        &kp F7   &kp F8   &kp F9                &kp F10
-&kp NUMBER_1      &kp NUMBER_2       &kp NUMBER_3          &kp NUMBER_4  &kp N5              &kp NUMBER_6  &kp N7   &kp N8   &kp N9                &kp N0
-&kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH  &kp GRAVE     &kp MINUS  &kp ESC  &kp EQUAL     &kp SQT  &kp F11  &kp F12               &kp F13
-&trans            &trans             &trans                &trans        &trans     &trans   &trans        &kp TAB  &trans   &kp NON_US_BACKSLASH  &kp RIGHT_SHIFT
+&kp F1        &kp F2            &kp F3             &kp F4                &kp F5              &kp F6        &kp F7         &kp F8   &kp F9                &kp F10
+&kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3       &kp NUMBER_4          &kp N5              &kp NUMBER_6  &kp N7         &kp N8   &kp N9                &kp N0
+&kp GRAVE     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH  &kp MINUS  &kp ESC  &kp EQUAL     &kp SEMICOLON  &kp SQT  &kp F11               &kp F12
+&trans        &trans            &trans             &trans                &trans     &trans   &trans        &kp TAB        &trans   &kp NON_US_BACKSLASH  &trans
             >;
         };
 
         Mac-Common_Layer {
             display-name = "Mac-Common_Layer";
             bindings = <
-&kp ESC    &trans        &kp C_BRIGHTNESS_DEC  &kp LG(UP_ARROW)    &kp C_BRI_UP                 &kp LC(LEFT)     &kp LG(LEFT_ARROW)  &mkp MB3        &kp LG(RIGHT_ARROW)  &kp LC(RIGHT)
-&kp TAB    &kp LEFT_GUI  &kp LS(TAB)           &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)          &kp LG(TAB)      &mkp MB1            &kp UP_ARROW    &mkp MB2             &kp PAGE_UP
-&kp LSHFT  &kp C_MUTE    &kp C_VOLUME_DOWN     &kp LG(DOWN)        &kp C_VOLUME_UP      &trans  &kp LS(LG(TAB))  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp PAGE_DOWN
-&kp LCTRL  &trans        &trans                &trans              &trans               &trans  &trans           &kp LG(T)           &trans          &trans               &kp END
+&kp PLUS         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTRK              &kp LC(LEFT)          &kp LEFT_ARROW        &kp UP_ARROW    &kp RIGHT_ARROW   &kp LC(RIGHT)
+&kp MINUS        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH              &kp LG(MINUS)         &kp LC(DOWN)          &kp DOWN_ARROW  &kp LC(UP_ARROW)  &kp LS(LG(EQUAL))
+&kp KP_NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &kp PERIOD  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_MUTE      &kp C_VOL_DN      &kp C_VOL_UP
+&trans           &trans        &trans        &trans        &trans     &trans      &trans                &kp COMMA             &trans          &trans            &trans
             >;
         };
 
